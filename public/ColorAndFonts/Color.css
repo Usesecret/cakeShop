@@ -1,0 +1,34 @@
+:root {
+        --swiper-theme-color: #703f07 !important;
+        --DTPrimaryColor: #703f07;
+        --DTSecondaryColor: #f0c76e;
+        --DTTertiaryColor: rgba(0,0,0,0);
+        --DTBodyBGColor: #ffffff;
+        --DTOverlayColor: rgba(0, 0, 0, .5);
+        --DTLinkColor: #703f07;
+        --DTLinkHoverColor: #f0c76e;
+        --DTColor_Body: #1a1a1a;
+        --DTColor_Heading: #663300;
+        --DTColor_Border: #e9e9e9;
+        --DT_Error_Color: #D8000C;
+        --DT_Success_Color: #4F8A10;
+        --DT_Warning_Color: #9F6000;
+        --DT_Info_Color: #31708f;
+        --DT_Blog_BG_Color: rgba(0,0,0,0);
+        --DT_Blog_Link_Color: #703f07;
+        --DT_Blog_Link_Hover_Color: #f0c76e;
+        --DT_Blog_Text_Color: #703f07;
+        --DT_Blog_Icon_Color: #ba8d69;
+        --DT_Blog_Button_BG_Color: #703f07;
+        --DT_Blog_Button_Text_Color: #ffffff;
+        --DT_Blog_Button_BG_Hover_Color: #f0c76e;
+        --DT_Blog_Button_Text_Hover_Color: #ffffff;
+        --DT_Blog_Link_Color_Overlay: #ffffff;
+        --DT_Blog_Link_Hover_Color_Overlay: #7d583b;
+        --DT_Blog_Text_Color_overlay: #ffffff;
+        --DT_Blog_Icon_Color_overlay: #ffffff;
+        --DT_Blog_Button_BG_Color_overlay: #ba8d69;
+        --DT_Blog_Button_Text_Color_overlay: #ffffff;
+        --DT_Blog_Button_BG_Hover_Color_overlay: #7d583b;
+        --DT_Blog_Button_Text_Hover_Color_overlay: #ffffff;
+}

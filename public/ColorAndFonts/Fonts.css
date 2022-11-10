@@ -1,0 +1,18 @@
+:root{
+    --DTFontTypo_Heading: "Dancing Script", cursive;
+    --font-style-header: normal;
+    --font-weight-header: 500;
+    --font-size-header: ;
+    --DTFontTypo_Body: "Nunito Sans", sans-serif;
+    --font-style-body: normal;
+    --font-weight-body: 400;
+    --font-weight-body--bold: 700;
+    --font-weight-body--bolder: 700;
+    --font-size-body: 18px;
+    --DTFontTypo_Custom: "Twentieth Century", sans-serif;
+    --font-style-additional: normal;
+    --font-weight-additional: 400;
+    --font-size-additional: 20;
+    --DT_Blog_Border_Radius: 0px;
+    --DT_Blog_Gutter_Width: 30px;
+}
