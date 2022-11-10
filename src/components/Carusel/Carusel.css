@@ -1,0 +1,17 @@
+.carousel-item{
+    height: 400px;
+    position: relative;
+}
+
+
+.carousel-caption{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 100px;
+    color: white;
+}
+.home-carusel-img{
+    height: 100%;
+    width: 100%;
+    padding-bottom:30px ;
+} 
