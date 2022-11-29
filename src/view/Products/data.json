@@ -1,5 +1,4 @@
-{
-  "product": [
+[
     {
       "category": "cake",
       "subCategory":"Angel Cake",
@@ -98,7 +97,7 @@
     },
     {
       "category": "cake",
-      "subCategory":"biscuit Cake",
+      "subCategory":"Biscuit Cake",
       "id": 9,
       "name": "French biscuit cake",
       "title": "nesciunt iure omnis dolorem tempora et accusantium",
@@ -264,5 +263,4 @@
       "form": false,
       "status": false
     }
-  ]
-}
+]

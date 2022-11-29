@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card .butns{
+    background-color: rgba(165, 42, 42, 0.628);
+}
+.card{
+    overflow: hidden; 
+}
+
+.img-wrappp{
+    width: 170px;
+    transition: all .3s ease-in-out;
+
+}
+.img-wrappp:hover   {
+    transform: scale(1.2);
+}
+
+.prop-name{
+    color: brown;
+    padding-top: 7%;
+}
+.prop-price{
+    font-size: 1.3em;
+    color: rgba(165, 42, 42, 0.628);
+}
+.car-wrap{
+    margin: 10px;
+    padding: 0;
+    height: 61vh;
+    width: 18vw;
+}
+.car-wrap .img{
+    height: 170px;
+    width: 270px;
+
+}
+@media only screen and (max-width: 800px) {
+    .car-wrap{
+    margin: 5px;
+    width: 47vw;
+    height: 30vh;
+    }
+    .car-wrap .img{
+        height: 100px;
+        width: 190px;
+    }
+    .car-wrap .butns{
+        height: 27px;
+        width: 65px;
+    }
+    .butns span{
+        font-size: 0.6em;
+    }
+    .prop-name  {
+        font-size: 0.8em;
+
+    }
+    .prop-price{
+        font-size: 0.9em;
+
+    }
+    .prop-title{
+        font-size: 0.8em;
+        
+    }
+    .product-wrap .row {
+        margin-left: 0.3px;
+    }
+}

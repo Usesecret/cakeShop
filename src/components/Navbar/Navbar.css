@@ -1,4 +1,73 @@
 
 .navbar{
+    width: 100vw;
+    position: fixed;
+    top: 0;
     background-color: rgba(165, 42, 42, 0.628);
+}
+.nav-svg-basket{
+    margin: 0 0 0 420px;
+}
+.nav-home{
+    padding:2% 1% 0 19em;
+}
+.logo-title{
+    padding-left: 3em;
+}
+.dn1-none{
+    display:block;
+    
+}
+.dn2-none{
+    display:none;
+}
+
+.nav-wrapper{
+    display: flex;
+}
+.basket-num{
+    position: absolute;
+    top: 4px;
+    color: white;
+    right: 55px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+@media only screen and (max-width: 800px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .basket-num{
+        position: absolute;
+        top: 45px;
+        right: 95px;
+        font-size: 1em;
+
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+        padding-left: 80px;
+    }
+    .nav-svg-basket{
+        margin: 0 5%;
+    }
+    .nav-home{
+        padding: 15% 1% 0 0;
+    }
+    .container-fluid{
+        width: 150px;
+        padding: 0 1% 0 10% ;
+    }
+    .container-fluid a{
+        font-size: 1em;
+    }
+    .dn2-none{
+        display:block;
+        
+    }
+    .dn1-none{
+        display:none;
+    }
 }

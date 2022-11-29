@@ -1,0 +1,21 @@
+.main-footer{
+    color: white;
+    background-color: rgba(165, 42, 42, 0.628);
+}
+.container .col{
+    margin-top: 2%;
+}
+
+.unordered-list {
+    display: flex;
+    flex-direction: column;
+}
+.main-footer .list-unstyled li{
+    color: white;
+} 
+.footer-bottom{
+    margin-left:30%;
+}
+.footer-bottom p{
+    font-size: 1em;
+}
