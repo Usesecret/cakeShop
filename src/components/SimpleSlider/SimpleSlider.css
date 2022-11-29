@@ -1,0 +1,33 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.cards-wrappers{
+    display: flex;
+    justify-content: center;
+    margin: 0 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+} 
+
+.cards-wrappers .card{
+    border: 1px solid saddlebrown;
+    height: 65vh;
+    width: 85%;
+    padding: 0;
+}
+
+@media only screen and (max-width: 800px){
+    .cards-wrappers{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .cards-wrappers .card{
+        border: 1px solid saddlebrown;
+        height: 30vh;
+        width: 95%;
+    }
+    .card-3{
+        display: none;
+    }
+}

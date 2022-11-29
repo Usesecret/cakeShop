@@ -1,0 +1,105 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ds-none{
+    display: block;
+}
+.home-about-section{
+    background-image: url('./../../../public/choco-bg.webp');
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.about-sec-wrapper{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.about-desc{
+    padding: 0 30px;
+    background-color: white;
+    opacity: 80%;
+    font-size: 100%;
+    color:#452504ee;
+    font-family:cursive;
+} 
+.cake-title{
+    display: flex;
+    justify-content: center;
+    color:#452504ee;
+}  
+
+.img-margin{
+    height:55vh;
+    transition: all .3s ease-in-out;
+}
+.img-margin1{
+    height:55vh;
+    width:55vw;
+    transition: all .3s ease-in-out;
+}
+.banner-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 1% 1% 1% 5% ;
+}
+.img-rotate{
+    margin: 3% 0 ;
+    margin-left: 5%;
+    
+    width: 29vw;
+    overflow: hidden;
+} 
+  .img-rotate img:hover   {
+    transform: scale(1.2);
+  }
+  .img-rotate2 img:hover{
+    transform: scale(1.2);
+
+}
+.img-rotate3:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+@media only screen and (max-width: 800px) {
+    .about-desc{
+        font-size: 0.7em;
+        margin-top: -300px;
+    }
+    .home-about-section{
+        height: 30vh;
+    }
+    .about-sec-wrapper{
+        height: 0vh;
+    }
+    .banner-wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .img-rotate{
+        
+        width: 90vw;
+        overflow: hidden;
+    }
+    .img-margin1{
+        height:55vh;
+        width:90vw;
+        transition: all .3s ease-in-out;
+    } 
+    .banners-img img{
+        width:85vw;
+        height: 30vh;
+    }
+    .ds-none{
+        display: none;
+    }
+    
+}
